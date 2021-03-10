@@ -122,7 +122,7 @@ const WeatherSetting = ({ cityName, handleCurrentCityChange, handleCurrentPageCh
       </StyledSelect>
       <ButtonGroup>
         <Back onClick={() => handleCurrentPageChange('WeatherCard')}>返回</Back>
-        <Save onClick={handleSave}>儲存</Save>
+        <Save onClick={handleSave}>儲存變更</Save>
       </ButtonGroup>
     </WeatherSettingWrapper>
   )

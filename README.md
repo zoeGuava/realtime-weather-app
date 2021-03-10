@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# 【從 Hooks 開始，讓網頁 React 起來】台灣好天氣 - 臺灣即時天氣 App 🇹🇼 實作
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## GitHub pages link
+- [https://zoeguava.github.io/realtime-weather-app/](https://zoeguava.github.io/realtime-weather-app/)
 
-## Available Scripts
+## 主要資料夾配置
 
-In the project directory, you can run:
+```
+realtime-weather-app
+├── README.md
+├── node_modules
+├── package.json
+├── .gitignore
+├── public ── 此資料夾主要放置靜態、不需要重新編譯的檔案。
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+└── src ── 部署時會透過 webpack 將檔案打包成 js 檔案以供 index.html 使用。
+    ├── components
+    │   └── WeatherIcon.js
+    │       └── 把 API 取得的天氣代碼轉換相應的天氣圖示。
+    ├── hooks
+    │   └── useWeatherAPI.js
+    │       └── 向中央氣象局發送 API 請求並回傳取得的天氣資料。
+    ├── images
+    ├── utils
+    │   ├── helpers.js
+    │   │   └── 取得用以判定 light 或是 dark 模式的日出日落時間。
+    │   └── sunrise-sunset.json
+    │       └── 各地區日出日落時間。
+    ├── views
+    │   ├── WeatherCard.js
+    │   │   └── 天氣資訊的主要顯示畫面。
+    │   └── WeatherSetting.js
+    │       └── 變更顯示天氣的地區。
+    ├── App.js
+    ├── index.css
+    ├── index.js
+    ├── reportWebVitals.js
+    └── setupTests.js
+```
 
-### `yarn start`
+## 作品來源
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 從 Hooks 開始，讓你的網頁 React 起來：
+  - 鐵人賽：[https://ithelp.ithome.com.tw/users/20103315/ironman/2668](https://ithelp.ithome.com.tw/users/20103315/ironman/2668)
+  - GitHub：[https://github.com/pjchender/learn-react-from-hook-realtime-weather-app](https://github.com/pjchender/learn-react-from-hook-realtime-weather-app)
