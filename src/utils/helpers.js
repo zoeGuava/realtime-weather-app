@@ -49,34 +49,9 @@ export const getMoment = (locationName) => {
 
 export const availableLocations = [
   {
-    cityName: '宜蘭縣',
-    locationName: '太平山',
-    sunriseCityName: '宜蘭縣',
-  },
-  {
-    cityName: '嘉義市',
-    locationName: '嘉義市東區',
-    sunriseCityName: '嘉義市',
-  },
-  {
-    cityName: '屏東縣',
-    locationName: '佳冬',
-    sunriseCityName: '屏東縣',
-  },
-  {
-    cityName: '苗栗縣',
-    locationName: '獅潭',
-    sunriseCityName: '苗栗縣',
-  },
-  {
-    cityName: '雲林縣',
-    locationName: '斗六',
-    sunriseCityName: '雲林縣',
-  },
-  {
-    cityName: '臺東縣',
-    locationName: '鹿野',
-    sunriseCityName: '臺東縣',
+    cityName: '基隆市',
+    locationName: '基隆嶼',
+    sunriseCityName: '基隆市',
   },
   {
     cityName: '臺北市',
@@ -84,9 +59,9 @@ export const availableLocations = [
     sunriseCityName: '臺北市',
   },
   {
-    cityName: '金門縣',
-    locationName: '金寧',
-    sunriseCityName: '金門縣',
+    cityName: '新北市',
+    locationName: '福山',
+    sunriseCityName: '新北市',
   },
   {
     cityName: '桃園市',
@@ -94,34 +69,14 @@ export const availableLocations = [
     sunriseCityName: '桃園市',
   },
   {
-    cityName: '彰化縣',
-    locationName: '伸港',
-    sunriseCityName: '彰化縣',
+    cityName: '新竹縣',
+    locationName: '竹東',
+    sunriseCityName: '新竹縣',
   },
   {
-    cityName: '嘉義縣',
-    locationName: '大林',
-    sunriseCityName: '嘉義縣',
-  },
-  {
-    cityName: '高雄市',
-    locationName: '永安',
-    sunriseCityName: '高雄市',
-  },
-  {
-    cityName: '基隆市',
-    locationName: '基隆嶼',
-    sunriseCityName: '基隆市',
-  },
-  {
-    cityName: '臺南市',
-    locationName: '安平',
-    sunriseCityName: '臺南市',
-  },
-  {
-    cityName: '南投縣',
-    locationName: '小奇萊',
-    sunriseCityName: '南投縣',
+    cityName: '苗栗縣',
+    locationName: '獅潭',
+    sunriseCityName: '苗栗縣',
   },
   {
     cityName: '臺中市',
@@ -129,9 +84,44 @@ export const availableLocations = [
     sunriseCityName: '臺中市',
   },
   {
-    cityName: '新竹縣',
-    locationName: '竹東',
-    sunriseCityName: '新竹縣',
+    cityName: '彰化縣',
+    locationName: '伸港',
+    sunriseCityName: '彰化縣',
+  },
+  {
+    cityName: '雲林縣',
+    locationName: '斗六',
+    sunriseCityName: '雲林縣',
+  },
+  {
+    cityName: '嘉義市',
+    locationName: '嘉義市東區',
+    sunriseCityName: '嘉義市',
+  },
+  {
+    cityName: '嘉義縣',
+    locationName: '大林',
+    sunriseCityName: '嘉義縣',
+  },
+  {
+    cityName: '臺南市',
+    locationName: '安平',
+    sunriseCityName: '臺南市',
+  },
+  {
+    cityName: '高雄市',
+    locationName: '永安',
+    sunriseCityName: '高雄市',
+  },
+  {
+    cityName: '屏東縣',
+    locationName: '佳冬',
+    sunriseCityName: '屏東縣',
+  },
+  {
+    cityName: '宜蘭縣',
+    locationName: '太平山',
+    sunriseCityName: '宜蘭縣',
   },
   {
     cityName: '花蓮縣',
@@ -139,9 +129,19 @@ export const availableLocations = [
     sunriseCityName: '花蓮縣',
   },
   {
-    cityName: '連江縣',
-    locationName: '東引',
-    sunriseCityName: '連江縣',
+    cityName: '臺東縣',
+    locationName: '鹿野',
+    sunriseCityName: '臺東縣',
+  },
+  {
+    cityName: '南投縣',
+    locationName: '小奇萊',
+    sunriseCityName: '南投縣',
+  },
+  {
+    cityName: '金門縣',
+    locationName: '金寧',
+    sunriseCityName: '金門縣',
   },
   {
     cityName: '澎湖縣',
@@ -149,9 +149,9 @@ export const availableLocations = [
     sunriseCityName: '澎湖縣',
   },
   {
-    cityName: '新北市',
-    locationName: '福山',
-    sunriseCityName: '新北市',
+    cityName: '連江縣',
+    locationName: '東引',
+    sunriseCityName: '連江縣',
   },
 ];
 
